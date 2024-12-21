@@ -5,6 +5,7 @@
 	"version": "0.0.2",
 	"publisher": "NicolasChevrier",
 	"license": "MIT",
+	"icon": "logo-shaker-miniature.png",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/nicolas1729/rgaa-checker.git"
