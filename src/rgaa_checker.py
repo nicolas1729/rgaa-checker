@@ -14,7 +14,7 @@ def check_rgaa(html_content):
     headings = soup.find_all(['h1', 'h2', 'h3', 'h4', 'h5', 'h6'])
     for i in range(1, len(headings)):
         if int(headings[i].name[1]) < int(headings[i - 1].name[1]):
-            errors.append(f"Mauvais ordre des titres : {headings[i]} après {headings[i - 1]}")
+            errors.append(f"Mauvais ordre des titres : {headings[i]} apres {headings[i - 1]}")
 
     # Vérification des liens avec un texte non significatif
     for a in soup.find_all('a'):

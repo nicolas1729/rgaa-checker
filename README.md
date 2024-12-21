@@ -6,6 +6,6 @@ Vérifie la confirmité RGAA d'une page HTML
 
 ## Demo
 
-Ouvrir la palette de commande (Ctr+Alt+P) et renseigner "Vérifier la conformité RGAA"
+Ouvrir la palette de commande (Ctr+Shift+P) et renseigner "Vérifier la conformité RGAA"
 
 

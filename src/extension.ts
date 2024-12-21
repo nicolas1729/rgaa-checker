@@ -12,7 +12,6 @@ export function activate(context: vscode.ExtensionContext) {
 	console.log('Congratulations, your extension "rgaa-checker" is now active!');
 
 	const disposable = vscode.commands.registerCommand('extension.runCheck', () => {
-        vscode.window.showErrorMessage('runCheck.');
         const editor = vscode.window.activeTextEditor;
         if (!editor) {
             vscode.window.showErrorMessage('Ouvrez un fichier HTML pour effectuer la vérification.');

@@ -4,13 +4,19 @@
 	"description": "rgaa_checker for VS Code",
 	"version": "0.0.2",
 	"publisher": "NicolasChevrier",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nicolas1729/rgaa-checker.git"
+	},
 	"engines": {
-		"vscode": "^1.74.0"
+		"vscode": "^1.96.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [],
+	"activationEvents": [
+	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
